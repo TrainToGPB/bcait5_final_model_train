@@ -180,6 +180,7 @@ summary/summary_models/*
 question_generation/data/*
 summary/data/*
 stt/data/*
+punct_correction/data/*
 
 # Results
 question_generation/results/*
