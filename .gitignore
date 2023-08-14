@@ -159,6 +159,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# Useless files
+nohup.out
+
 # Audio files
 *.csv
 *.wav
@@ -170,11 +173,13 @@ cython_debug/
 *.m4a
 
 # Wandb
+wandb/
 *.wandb
 
 # Models
 question_generation/qg_model/*
 summary/summary_models/*
+punct_correction/pc_models/*
 
 # Data
 question_generation/data/*
